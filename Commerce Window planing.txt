@@ -1,0 +1,23 @@
+Commerce-Window-planing
+
+- create NX-Monorepo will contain commerce-window project
+- learn how to use nx-monorepo at the first place
+- learn how to manage lips folders that shared with all projects will be at the nx-monorepo
+- start to work on the common components will be created to be reuse for any other project after the current project
+- make all common components main things changeable and controllable for the business user side like next things ...
+	[{
+	"Colors":{
+	  "component Main (primary) color": 'user should be able to change the colors of the component and this will be controlbel from one place and it will be the admin page',
+	  "main color will be the primary for everything": main color will be for buttons an Icons and headlines if it's exist and input fields',
+	  "main color (primary) will change Secondary color":'secondary color is the color will show as effect on hover if needed and will be the shadow color',
+	  "main color (Primary) will change the Hover color":'hover color for text or links of buttons the hover color will be changed if the primary color changes',
+	  },
+	"everything will be reusable inside the reusable components":{
+	  "colors":'all colors will be changeable',
+	  "Effects":'all effects will be changeable from the admin side like hovers and if there is animations',
+	  
+	} 
+	
+	}]
+	
+	
