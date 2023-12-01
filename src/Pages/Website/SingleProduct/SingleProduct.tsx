@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledTypography } from "./StyledSingleProduct";
 
 const SingleProduct = () => {
