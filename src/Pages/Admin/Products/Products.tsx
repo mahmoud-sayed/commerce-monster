@@ -1,8 +1,8 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { StyledTypography } from "./StyledProducts";
 
-const Dashboard = () => {
-  return <Typography variant="h1">Dashboard</Typography>;
+const Products = () => {
+  return <StyledTypography variant="h1">Products</StyledTypography>;
 };
 
-export default Dashboard;
+export default Products;

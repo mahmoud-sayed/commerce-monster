@@ -1,8 +1,8 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { StyledTypography } from "./StyledLogin";
 
 const Login = () => {
-  return <Typography variant="h1">Login</Typography>;
+  return <StyledTypography variant="h1">Login</StyledTypography>;
 };
 
 export default Login;

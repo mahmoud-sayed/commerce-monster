@@ -1,8 +1,8 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { StyledTypography } from "../styledWebsiteConfiguration";
 
-const Dashboard = () => {
-  return <Typography variant="h1">Dashboard</Typography>;
+const PaymentOptions = () => {
+  return <StyledTypography variant="h1">PaymentOptions</StyledTypography>;
 };
 
-export default Dashboard;
+export default PaymentOptions;

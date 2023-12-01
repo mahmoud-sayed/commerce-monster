@@ -1,8 +1,8 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { StyledTypography } from "./StyledAdminDashboard";
 
 const Dashboard = () => {
-  return <Typography variant="h1">Dashboard</Typography>;
+  return <StyledTypography variant="h1">Dashboard</StyledTypography>;
 };
 
 export default Dashboard;
